@@ -1,0 +1,24 @@
+https://www.youtube.com/watch?v=hSIhx_5CFj0
+https://www.youtube.com/watch?v=34oiEq9nD0M
+
+//https://www.youtube.com/watch?v=1OpAgZvYXLQ
+//https://www.youtube.com/watch?v=IwJ-SCfXoAU
+
+https://www.agiledeveloper.com/svn/code/concwithoutpain/
+userid: conccourse/thre@ds
+
+interfaces can not have state
+
+four rules of defaulut methods
+1	you get what is in the base interface
+2	you may override default method
+3	If a method is there in the class hierarchy then it takes precedence
+4	if there is no method on any of the classes in the hierarchy, but two of your interfaces
+	that you implements has the default method
+	to solve this use ruel 3.	
+
+// Method reference can be used only when you receive something and passing that value without modification
+
+Q) When can we use Parallel streams
+If we have collection of data and needs to perform similar operation and order doesn't matter, we can use Parallel streams
+ 
