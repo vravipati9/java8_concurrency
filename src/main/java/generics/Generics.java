@@ -1,7 +1,7 @@
-package java8;
+package generics;
 
 import java.util.ArrayList;
-import java.util.List;import org.omg.Messaging.SyncScopeHelper;
+import java.util.List;
 
 public class Generics {
 	public static void main(String...strings ) {

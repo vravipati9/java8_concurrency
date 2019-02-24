@@ -44,9 +44,9 @@ public class Test {
 		});
  */
 
-// In jdk7, If we want to use local variables in anonimous class, we have to declare variable as final.
+// In jdk7, If we want to use local variables in anonymous class, we have to declare variable as final.
 // But in jdk8, no need to declare variable as final
-// But If we reassign variable after initialization and use in anonimous class it throws below exception
+// But If we reassign variable after initialization and use in anonymous class it throws below exception
 // Local variable c defined in an enclosing scope must be final or effectively final
 
 /*
