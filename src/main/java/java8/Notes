@@ -1,3 +1,7 @@
+//GITLAB - https://gitlab.com/vravipati9/java8_concurrency.git
+//GITHUB -https://github.com/vvsrk/java8_concurrency.git
+//To change remote origin - git remote set-url origin https://github.com/vvsrk/java8_concurrency.git
+
 https://www.youtube.com/watch?v=hSIhx_5CFj0
 https://www.youtube.com/watch?v=34oiEq9nD0M
 
@@ -18,6 +22,12 @@ four rules of defaulut methods
 	to solve this use ruel 3.	
 
 // Method reference can be used only when you receive something and passing that value without modification
+
+Method vs Function
+------------------
+Methods which belongs to classes
+Function: a lambda expression is an anonymous function, it doesn't have a name but it just a piece of code
+it has some statements or expressions
 
 Q) When can we use Parallel streams
 If we have collection of data and needs to perform similar operation and order doesn't matter, we can use Parallel streams
