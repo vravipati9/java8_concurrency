@@ -23,7 +23,7 @@ public class ForkJoinMethods {
 	
 	public static void main(String a[]) throws InterruptedException, ExecutionException {
 		System.out.println("Start");
-		//compute(4);
+		compute(4);
 		ForkJoinPool pool = ForkJoinPool.commonPool();
 
 		System.out.println("Done");
