@@ -1,5 +1,6 @@
 package java8;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Consumer;
@@ -15,6 +16,14 @@ public class ConsumerEx {
         list.forEach(consumerNumber);
 
         listString.forEach(consumerString);
+
+        final List<String> emailTo = new ArrayList<>();
+        emailTo.add("abc@gmail.com");
+        emailTo.add("def@gmail.com");
+        emailTo.add("ghi@gmail.com");
+        String[] strings = emailTo.toArray(new String[0]);
+        System.out.println(Arrays.asList(strings));
     }
+
 
 }
