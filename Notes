@@ -1,0 +1,48 @@
+shit command f12 - hide all vinodws
+hide every thing - view enter distraction mode
+delete - control + y
+move lines - shift alt up arrow
+reformat code - ctrl alt I
+inject json/regex - alt enter
+command P - to get parameter info
+alt / - hippy completion(all possible variabeles)
+command U - syper class
+ctrl + W -
+extract method - command + alt + M
+
+
+https://www.youtube.com/watch?v=hSIhx_5CFj0
+https://www.youtube.com/watch?v=34oiEq9nD0M
+
+//https://www.youtube.com/watch?v=1OpAgZvYXLQ
+//https://www.youtube.com/watch?v=IwJ-SCfXoAU
+
+https://www.agiledeveloper.com/svn/code/concwithoutpain/
+userid: conccourse/thre@ds
+
+How do I resolve git saying “Commit your changes or stash them before you can merge”?
+https://stackoverflow.com/questions/1574504m5/how-do-i-resolve-git-saying-commit-your-changes-or-stash-them-before-you-can-me
+
+
+
+interfaces can not have state
+
+four rules of defaulut methods
+1	you get what is in the base interface
+2	you may override default method
+3	If a method is there in the class hierarchy then it takes precedence
+4	if there is no method on any of the classes in the hierarchy, but two of your interfaces
+	that you implements has the default method
+	to solve this use ruel 3.	
+
+// Method reference can be used only when you receive something and passing that value without modification
+
+Q) When can we use Parallel streams
+If we have collection of data and needs to perform similar operation and order doesn't matter, we can use Parallel streams
+
+// Functional Interfaces
+Runnable
+Callable
+Consumer
+Supplier
+Functional
