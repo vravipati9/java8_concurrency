@@ -2,161 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19aae2ea-5181-46d8-92dc-5217e0b6e4f5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/BoxDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/Canvas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/Drawing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/GenericArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/GenericMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/GenericMethodFindMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/GenericMethodSwap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/InstanceForGenericType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/MultiLevelWildCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/PairGenericTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/PalindromPredicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/PredicateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/SubstitutionPrinciple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/TypeInference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/UnaryPredicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/WildCardEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/WildCardEx1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/WildCardTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/WildcardError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java8/ConsumerEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java8/FileIsPresent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java8/FunctionInterfaceEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java8/FunctionalInterface1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java8/PredicateInterfaceEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/A.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/B.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/Banana.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/Bazz.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/Box.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/BoxDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/C.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/Canvas.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/Circle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/Drawing.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/Dum1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/Foo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/Fruit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/GenSet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/GenSet1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/GenSet2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/GenSet3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/GenericArray.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/GenericMethod.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/GenericMethodFindMax.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/GenericMethodSwap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/Generics.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/InstanceForGenericType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/MultiLevelWildCard.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/MyClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/Orange.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/Pair.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/PairGenericTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/PalindromPredicate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/PredicateTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/Rectangle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/Shape.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/Status.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/SubstitutionPrinciple.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/TypeInference.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/UnaryPredicate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/Util.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/WildCardEx.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/WildCardEx1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/WildCardTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generics/WildcardError.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/java8/ConsumerEx.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/java8/FileIsPresent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/java8/FunctionInterfaceEx.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/java8/FunctionalInterface1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/java8/PredicateInterfaceEx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java8/Generics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/generics/Generics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java8/Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java8/Notes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java8/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java8/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/java8/java8_concurrency/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/java8/java8_concurrency/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrency/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concurrency/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrency/AccountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concurrency/AccountService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrency/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concurrency/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrency/ComputeLinks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concurrency/ComputeLinks.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java8/ListAllFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java8/ReadingFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/java8/Imperative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java8/Imperative.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/concurrency/ComputeLinksConcurrent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concurrency/ComputeLinksConcurrent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrency/ComputeLinksSequential.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concurrency/ComputeLinksSequential.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrency/EnergySource$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concurrency/EnergySource$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrency/EnergySource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concurrency/EnergySource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrency/EnergySourceImproved.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concurrency/EnergySourceImproved.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrency/Executor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concurrency/Executor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrency/ExecutorEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concurrency/ExecutorEx.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/concurrency/ForkJoinMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concurrency/ForkJoinMethods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrency/ForkJoinPoolAsync$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concurrency/ForkJoinPoolAsync$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrency/ForkJoinPoolAsync.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concurrency/ForkJoinPoolAsync.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrency/ForkJoinPoolEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concurrency/ForkJoinPoolEx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrency/ForkJoinPoolEx1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concurrency/ForkJoinPoolEx1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrency/ForkJoinPoolEx1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concurrency/ForkJoinPoolEx1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrency/ForkJoinPoolSync$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concurrency/ForkJoinPoolSync$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrency/ForkJoinPoolSync.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concurrency/ForkJoinPoolSync.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrency/GetStockPrice$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concurrency/GetStockPrice$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrency/GetStockPrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concurrency/GetStockPrice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrency/LinksFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concurrency/LinksFinder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrency/ParallelStreams.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concurrency/ParallelStreams.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrency/PingLinks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concurrency/PingLinks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrency/PingLinksConcurrent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concurrency/PingLinksConcurrent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrency/PingLinksSequential.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concurrency/PingLinksSequential.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrency/StreamsUsingThreads$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concurrency/StreamsUsingThreads$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrency/StreamsUsingThreads$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concurrency/StreamsUsingThreads$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrency/StreamsUsingThreads.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concurrency/StreamsUsingThreads.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrency/SynchronizeOverVolatile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concurrency/SynchronizeOverVolatile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrency/TestAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concurrency/TestAccount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrency/Timeit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concurrency/Timeit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrency/TimeitStreams.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concurrency/TimeitStreams.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrency/UseEnergySource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concurrency/UseEnergySource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrency/UseEnergySourceImproved.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concurrency/UseEnergySourceImproved.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrency/Volatile$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concurrency/Volatile$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrency/Volatile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concurrency/Volatile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrency/YahooFinance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concurrency/YahooFinance.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/java8/Banana.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java8/Conditionally.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/java8/Conditionally.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java8/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/java8/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java8/Executable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/java8/Executable.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/java8/Fruit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java8/Gender.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/java8/Gender.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/java8/Generics.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/java8/Imperative$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/java8/Imperative$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/java8/Imperative.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/java8/Imperative.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java8/Lambda$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/java8/Lambda$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java8/Lambda.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/java8/Lambda.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java8/MethodReference$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/java8/MethodReference$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java8/MethodReference.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/java8/MethodReference.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java8/Notes" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/java8/Orange.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java8/ParallelStreamEx1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/java8/ParallelStreamEx1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java8/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/java8/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java8/PersonCompare.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/java8/PersonCompare.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java8/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/java8/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java8/SharedMutablility.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/java8/SharedMutablility.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java8/SortUsingLambda$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/java8/SortUsingLambda$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java8/SortUsingLambda.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/java8/SortUsingLambda.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java8/StreamEx1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/java8/StreamEx1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java8/StreamEx1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/java8/StreamEx1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java8/StringJoinStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/java8/StringJoinStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java8/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/java8/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java8/Timeit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/java8/Timeit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java8/ToMapUsingCollectors.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/java8/ToMapUsingCollectors.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/java8/java8_concurrency/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/java8/java8_concurrency/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/java8/SharedMutablility.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -174,8 +32,8 @@
       <file leaf-file-name="Imperative.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/java8/Imperative.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="206">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -183,79 +41,106 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CallableBefore8.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/java8/CallableBefore8.java">
+      <file leaf-file-name="ReadingFile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/java8/ReadingFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CallableIn8.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/java8/CallableIn8.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParallelStreamEx1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/java8/ParallelStreamEx1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FunctInterface1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/java8/FunctInterface1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FunctInterface2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/java8/FunctInterface2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="126">
+              <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#405#406#0" expanded="true" />
-                <element signature="e#461#462#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Notes" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ListAllFiles.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/java8/ListAllFiles.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="System.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/System.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="109" column="47" lean-forward="true" selection-start-line="109" selection-start-column="47" selection-end-line="109" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrintStream.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/io/PrintStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Notes" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Notes">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+            <state relative-caret-position="-321">
+              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalculateTime.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/java8/CalculateTime.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            <state relative-caret-position="77">
+              <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lambda.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/java8/Lambda.java">
+      <file leaf-file-name="PredicateInterfaceEx.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/java8/PredicateInterfaceEx.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="223">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SupplierInterfaceEx.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/java8/SupplierInterfaceEx.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#152#153#0" expanded="true" />
+                <element signature="e#196#197#0" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#376#377#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
+                <element signature="e#684#685#0" expanded="true" />
+                <element signature="e#733#734#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CleaningResources.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/java8/CleaningResources.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -278,6 +163,8 @@
       <find>ArrayList</find>
       <find>addall</find>
       <find>Timeit</find>
+      <find>consumer</find>
+      <find>println</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -302,6 +189,11 @@
         <option value="$PROJECT_DIR$/src/main/java/java8/PredicateInterfaceEx.java" />
         <option value="$PROJECT_DIR$/src/main/java/java8/Notes" />
         <option value="$PROJECT_DIR$/Notes" />
+        <option value="$PROJECT_DIR$/src/main/java/java8/SupplierInterfaceEx.java" />
+        <option value="$PROJECT_DIR$/src/main/java/java8/CleaningResources.java" />
+        <option value="$PROJECT_DIR$/src/main/java/java8/Imperative.java" />
+        <option value="$PROJECT_DIR$/src/main/java/java8/ReadingFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/java8/ListAllFiles.java" />
       </list>
     </option>
   </component>
@@ -314,11 +206,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1696" />
-    <option name="height" value="1026" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="823" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -401,9 +292,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PredicateInterfaceEx">
-    <configuration name="ConsumerEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.ConsumerEx" />
+  <component name="RunManager" selected="Application.ListAllFiles">
+    <configuration name="CleaningResources" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.CleaningResources" />
       <module name="java8_concurrency" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -413,30 +304,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Drawing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.Drawing" />
-      <module name="java8_concurrency" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="generics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="FileIsPresent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.FileIsPresent" />
-      <module name="java8_concurrency" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="generics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="FunctionInterfaceEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.FunctionInterfaceEx" />
+    <configuration name="ListAllFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.ListAllFiles" />
       <module name="java8_concurrency" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -448,6 +317,28 @@
     </configuration>
     <configuration name="PredicateInterfaceEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8.PredicateInterfaceEx" />
+      <module name="java8_concurrency" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ReadingFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.ReadingFile" />
+      <module name="java8_concurrency" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SupplierInterfaceEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.SupplierInterfaceEx" />
       <module name="java8_concurrency" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -499,19 +390,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Drawing" />
-      <item itemvalue="Application.FileIsPresent" />
-      <item itemvalue="Application.ConsumerEx" />
-      <item itemvalue="Application.FunctionInterfaceEx" />
       <item itemvalue="Application.PredicateInterfaceEx" />
+      <item itemvalue="Application.SupplierInterfaceEx" />
+      <item itemvalue="Application.CleaningResources" />
+      <item itemvalue="Application.ReadingFile" />
+      <item itemvalue="Application.ListAllFiles" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListAllFiles" />
+        <item itemvalue="Application.ReadingFile" />
+        <item itemvalue="Application.CleaningResources" />
+        <item itemvalue="Application.SupplierInterfaceEx" />
         <item itemvalue="Application.PredicateInterfaceEx" />
-        <item itemvalue="Application.FunctionInterfaceEx" />
-        <item itemvalue="Application.ConsumerEx" />
-        <item itemvalue="Application.FileIsPresent" />
-        <item itemvalue="Application.Drawing" />
       </list>
     </recent_temporary>
   </component>
@@ -551,63 +442,63 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45864000" />
+    <option name="totallyTimeSpent" value="58744000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32843792" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3278237" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info id="Image Layers" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32843792" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3671562" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.35674933" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Designer" order="3" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36639118" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.35674933" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.25" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Favorites" order="5" sideWeight="0.5021097" side_tool="true" weight="0.25" />
+      <window_info id="UI Designer" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info id="Favorites" order="6" sideWeight="0.5021097" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.3294621" />
+      <window_info anchor="right" id="Palette" order="8" />
+      <window_info id="Designer" order="9" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="11" />
+      <window_info anchor="right" id="Coverage" order="12" side_tool="true" weight="0.3294621" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32995495" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Structure" order="8" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32995495" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32995495" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="UI Designer" order="2" />
+      <window_info id="Image Layers" order="10" />
+      <window_info id="Capture Tool" order="11" />
+      <window_info id="UI Designer" order="12" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="13" />
+      <window_info anchor="right" id="Database" order="14" />
+      <window_info anchor="right" id="Palette&#9;" order="15" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32995495" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29278728" />
+      <window_info anchor="right" id="Maven Projects" order="16" />
+      <window_info content_ui="combo" id="Project" order="7" visible="true" weight="0.29278728" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -657,97 +548,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Created functional interfaces" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/generics/GenericMethodSwap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/generics/SubstitutionPrinciple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/generics/Pair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/generics/PairGenericTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/generics/TypeInference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/generics/Drawing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/generics/GenericMethodSwap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/generics/SubstitutionPrinciple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/generics/Pair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/generics/PairGenericTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/generics/TypeInference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/generics/Drawing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/generics/GenericMethodSwap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/generics/SubstitutionPrinciple.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -759,13 +559,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -781,16 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/java8/Imperative.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -933,6 +716,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -943,22 +729,153 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/java8/PredicateInterfaceEx.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="53" lean-forward="true" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
-            <element signature="e#966#967#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/java8/Notes">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java8/PredicateInterfaceEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java8/CallableBefore8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java8/SupplierInterfaceEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java8/CallableIn8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java8/CleaningResources.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java8/Imperative.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java8/ParallelStreamEx1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java8/ReadingFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java8/FunctInterface1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java8/FunctInterface2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java8/CalculateTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="109" column="47" lean-forward="true" selection-start-line="109" selection-start-column="47" selection-end-line="109" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java8/ListAllFiles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-321">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
         </state>
       </provider>
     </entry>
