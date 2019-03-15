@@ -11,6 +11,7 @@ public class ExecutorEx {
 	private static ExecutorService pool;
 	public static void main(String...strings) throws InterruptedException, ExecutionException {
 		System.out.println(isPrime(7));
+		System.out.println("test");
 		System.out.println("No of Primes::"+computeInRange(1, 10));
 		
 		 pool = Executors.newFixedThreadPool(10);
