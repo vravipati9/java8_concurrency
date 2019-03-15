@@ -9,7 +9,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Arrays;
 
-public class FilterFile {
+public class DirectoryStreamEx {
     public static void main(String... args) throws IOException {
         Arrays.stream(new File(".").listFiles()).forEach(file -> file.getName());
 
@@ -27,8 +27,8 @@ public class FilterFile {
         Files.newDirectoryStream(Paths.get("."), new DirectoryStream.Filter<Path>() {
             @Override
             public boolean accept(Path entry) throws IOException {
-                return false;
+                return entry.toString().endsWith("*.java");
             }
-        }
+        }).forEach(System.out::println);
     }
 }

@@ -8,9 +8,8 @@ https://www.youtube.com/watch?v=34oiEq9nD0M
 //https://www.youtube.com/watch?v=1OpAgZvYXLQ
 //https://www.youtube.com/watch?v=IwJ-SCfXoAU
 
-https://www.agiledeveloper.com/svn/code/concwithoutpain/
-userid: conccourse/thre@ds
 
+Closable interface in java?
 interfaces can not have state
 
 four rules of defaulut methods
@@ -31,4 +30,8 @@ it has some statements or expressions
 
 Q) When can we use Parallel streams
 If we have collection of data and needs to perform similar operation and order doesn't matter, we can use Parallel streams
- 
+
+###########################################################
+https://www.agiledeveloper.com/svn/code/concwithoutpain/
+userid: conccourse/thre@ds
+###########################################################
