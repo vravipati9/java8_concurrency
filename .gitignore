@@ -2,7 +2,7 @@
 ### Java template
 *.class
 target
-
+.idea
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
@@ -18,7 +18,7 @@ hs_err_pid*
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff:
-#.idea/workspace.xml
+.idea/workspace.xml
 #.idea/tasks.xml
 #.idea/dictionaries
 #.idea/vcs.xml
@@ -31,7 +31,7 @@ hs_err_pid*
 #.idea/sqlDataSources.xml
 #.idea/dynamic.xml
 #.idea/uiDesigner.xml
-.idea
+.idea/
 
 # Gradle:
 #.idea/gradle.xml
