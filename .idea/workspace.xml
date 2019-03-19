@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="19aae2ea-5181-46d8-92dc-5217e0b6e4f5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notes" beforeDir="false" afterPath="$PROJECT_DIR$/Notes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java8/FunctInterface1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java8/FunctionalInterface3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java8/FunctInterface2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java8/FunctionalInterface4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java8/FunctionInterfaceEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java8/FunctionInterface2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java8/ImperitiveVsDeclarative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java8/ImperitiveVsDeclarative.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrency/ExecutorEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/concurrency/ExecutorEx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java8/FunctionInterfaceEx.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/java8/SortUsingLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java8/SortUsingLambda.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,11 +60,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FunctionalInterface5.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FunctionalInterface5.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/java8/FunctionalInterface5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="22" column="53" lean-forward="true" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+            <state relative-caret-position="91">
+              <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ComparatorInJava8.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/java8/ComparatorInJava8.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#591#592#0" expanded="true" />
+                <element signature="e#676#677#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExecutorEx.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/ExecutorEx.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-391">
+              <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SortUsingLambda.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/java8/SortUsingLambda.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="90" column="5" lean-forward="true" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,6 +134,9 @@
       <find>ArrayList</find>
       <find>addall</find>
       <find>Timeit</find>
+      <find>comparator</find>
+      <find>compare</find>
+      <find>isprime</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -133,6 +165,8 @@
         <option value="$PROJECT_DIR$/src/main/java/java8/ImperitiveVsDeclarative.java" />
         <option value="$PROJECT_DIR$/Notes" />
         <option value="$PROJECT_DIR$/src/main/java/java8/FunctionalInterface5.java" />
+        <option value="$PROJECT_DIR$/src/main/java/java8/SortUsingLambda.java" />
+        <option value="$PROJECT_DIR$/src/main/java/java8/ComparatorInJava8.java" />
       </list>
     </option>
   </component>
@@ -145,7 +179,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="823" />
@@ -287,7 +321,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FunctionalInterface5">
+  <component name="RunManager" selected="Application.ComparatorInJava8">
+    <configuration name="ComparatorInJava8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java8.ComparatorInJava8" />
+      <module name="java8_concurrency" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="ConsumerEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8.ConsumerEx" />
       <module name="java8_concurrency" />
@@ -323,17 +368,6 @@
     </configuration>
     <configuration name="ImperitiveVsDeclarative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8.ImperitiveVsDeclarative" />
-      <module name="java8_concurrency" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="PredicateInterfaceEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8.PredicateInterfaceEx" />
       <module name="java8_concurrency" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -386,18 +420,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.ConsumerEx" />
-      <item itemvalue="Application.PredicateInterfaceEx" />
       <item itemvalue="Application.FilterFile" />
       <item itemvalue="Application.ImperitiveVsDeclarative" />
       <item itemvalue="Application.FunctionalInterface5" />
+      <item itemvalue="Application.ComparatorInJava8" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ComparatorInJava8" />
         <item itemvalue="Application.FunctionalInterface5" />
         <item itemvalue="Application.ImperitiveVsDeclarative" />
         <item itemvalue="Application.FilterFile" />
         <item itemvalue="Application.ConsumerEx" />
-        <item itemvalue="Application.PredicateInterfaceEx" />
       </list>
     </recent_temporary>
   </component>
@@ -427,7 +461,7 @@
       <workItem from="1551533129792" duration="12740000" />
       <workItem from="1551814666077" duration="174000" />
       <workItem from="1552134752815" duration="3693000" />
-      <workItem from="1552614018060" duration="6799000" />
+      <workItem from="1552614018060" duration="14033000" />
     </task>
     <task id="LOCAL-00001" summary="Created functional interfaces">
       <created>1551022334282</created>
@@ -447,10 +481,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57634000" />
+    <option name="totallyTimeSpent" value="64868000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="823" extended-state="1" />
+    <frame x="0" y="23" width="1440" height="823" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -467,8 +501,9 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3292011" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3" />
       <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -481,8 +516,38 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.3294621" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3292011" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3292011" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3292011" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39944905" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3292011" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -532,34 +597,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Working with files" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/generics/PairGenericTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/generics/TypeInference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/generics/Drawing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/generics/GenericMethodSwap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/generics/SubstitutionPrinciple.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -835,11 +872,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/java8/FunctionalInterface5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="22" column="53" lean-forward="true" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+        <state relative-caret-position="91">
+          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java8/SortUsingLambda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="90" column="5" lean-forward="true" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java8/ComparatorInJava8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/ExecutorEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-391">
+          <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
         </state>
       </provider>
     </entry>
