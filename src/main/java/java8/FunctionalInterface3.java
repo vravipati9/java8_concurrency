@@ -2,7 +2,7 @@ package java8;
 
 import java.util.function.Supplier;
 
-public class FunctInterface1 {
+public class FunctionalInterface3 {
     public static void main(String[] args) {
 
 

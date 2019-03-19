@@ -6,7 +6,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.function.Consumer;
 
-public class FunctInterface2 {
+public class FunctionalInterface4 {
     public static void main(String[] args) {
 
 
