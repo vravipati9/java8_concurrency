@@ -15,7 +15,7 @@ public class ListAllFiles {
     public static void main(String[] args) throws IOException {
         System.out.println(Paths.get(".").getClass());
 
-        String path = "/Users/sivaravipati/git/java8_concurrency";
+        String path = "/Users/<<username>>/git/java8_concurrency";
         File file = new File(path);
         File[] files = file.listFiles();
         Arrays.asList(files).stream().forEach(file1 -> System.out.println(file1));

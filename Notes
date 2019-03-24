@@ -1,6 +1,15 @@
-shit command f12 - hide all vinodws
+Navigate to class - command + o / ctrl + N
+Navigate to File - shift command o / ctrl shift N
+
+Parameter info - command + p / ctrl + p
+Navigate Implementations - alt command B / ctrl alt B
+Navigate Declarations - command B / ctrl B
+Navigate super method - command U
+
+shift command f12 - hide all windows
 hide every thing - view enter distraction mode
 delete - control + y
+duplicate line - ctrl + d
 move lines - shift alt up arrow
 reformat code - ctrl alt I
 inject json/regex - alt enter
@@ -10,6 +19,7 @@ command U - syper class
 ctrl + W -
 extract method - command + alt + M
 
+Need to look type inference
 
 https://www.youtube.com/watch?v=hSIhx_5CFj0
 https://www.youtube.com/watch?v=34oiEq9nD0M

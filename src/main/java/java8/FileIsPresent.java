@@ -5,13 +5,13 @@ import java.util.Arrays;
 
 public class FileIsPresent {
     public static void main(String... args) {
-        String directory = "\\\\OCULUSAPPS\\xgate_testbed\\";
+        String directory = "\\\\test\\test\\";
         System.out.println(directory);
-        String fileName = directory.concat("128780_hw.doc");
+        String fileName = directory.concat("abc.doc");
         File f = new File(fileName);
-        if(f.exists() && !f.isDirectory()) {
+        if (f.exists() && !f.isDirectory()) {
             System.out.println("file exist");
             System.out.println(f.getName());
-}
+        }
     }
 }

@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Function;
 
-public class FunctionInterface2 {
+public class FunctionalInterface2 {
 
     public static void main(String... args) {
         Function<Integer, Double> doubleIt = (Integer value) -> value * 2.0;

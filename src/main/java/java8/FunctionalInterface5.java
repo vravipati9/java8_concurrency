@@ -11,7 +11,7 @@ public class FunctionalInterface5 {
         //print files with Upper case and Comma separated
         //pwd | pbcopy
 
-        File file = new File("/Users/sivaravipati/git/java8_concurrency/example");
+        File file = new File("/Users/<<username>>/git/java8_concurrency/example");
         String[] str = file.list();
         String fileNames = new String();
 //       for (String fileName : str) {
