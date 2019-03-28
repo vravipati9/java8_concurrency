@@ -23,6 +23,17 @@ public class StreamMaxMethod {
     private static void findPersonsWithMaxAge() {
         Person olderPerson = createPeople().stream().max((o1, o2) -> o1.getAge() - o2.getAge()).orElse(null);
         System.out.println("Older Person(s):\n"+olderPerson);
+
+        /*
+        https://stackoverflow.com/questions/45256176/using-max-with-stream-on-a-list
+        Integer maxSalary;
+maxSalary = roster
+    .stream()
+    .map(Employee :: getSalary)
+    .collect(Collectors.reducing(Integer :: max)
+    .get();
+
+         */
     }
     private static List<Person> createPeople() {
         List<Person> persons = Arrays.asList(
