@@ -2,7 +2,7 @@
 ### Java template
 *.class
 target
-.idea
+
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
@@ -19,19 +19,19 @@ hs_err_pid*
 
 # User-specific stuff:
 .idea/workspace.xml
-#.idea/tasks.xml
-#.idea/dictionaries
-#.idea/vcs.xml
-#.idea/jsLibraryMappings.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
 
 # Sensitive or high-churn files:
-#.idea/dataSources.ids
-#.idea/dataSources.xml
-#.idea/dataSources.local.xml
-#.idea/sqlDataSources.xml
-#.idea/dynamic.xml
-#.idea/uiDesigner.xml
-.idea/
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+.idea
 
 # Gradle:
 #.idea/gradle.xml
@@ -91,3 +91,4 @@ developer.properties
 # JIRA plugin
 
 # Crashlytics plugin (for Android Studio and IntelliJ)
+*.jasper
