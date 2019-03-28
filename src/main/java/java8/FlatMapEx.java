@@ -3,6 +3,7 @@ package java8;
 import java.util.*;
 import java.util.function.Consumer;
 import java.util.function.Function;
+import java.util.function.IntConsumer;
 import java.util.function.IntPredicate;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
@@ -13,6 +14,12 @@ public class FlatMapEx {
     public static void main(String[] args) {
         //System.out.println(factorsOfImperitiveStyle(Arrays.asList(1, 2, 6, 8))); //[1, 2, 3, 4, 6, 8]
         System.out.println(factorsOfFunctionalStyle(Arrays.asList(1, 2, 6, 8)));
+
+        System.out.println("* * * testing lower bound generics * * *");
+        ArrayList<Integer> integerList = new ArrayList<>();
+        numsUpTo(5, integerList);
+        System.out.println(integerList);
+
     }
 
     private static Set<Integer> factorsOfImperitiveStyle(List<Integer> list) {
@@ -43,5 +50,10 @@ public class FlatMapEx {
 
     private static List<Integer> factorsOfFunctionalStyle(Integer number) {
         return IntStream.rangeClosed(1, number).filter(value -> number % value == 0).boxed().collect(Collectors.toList());
+    }
+
+    public static void numsUpTo(Integer num, List<? super Integer> output) {
+        IntStream.rangeClosed(1, num)
+                .forEach(value -> output.add(value));
     }
 }
