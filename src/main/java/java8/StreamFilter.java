@@ -9,7 +9,7 @@ import java.nio.file.*;
 import java.util.function.Function;
 
 // Count no of occurrences in a file for a given string
-public class FunctionalInterface6 {
+public class StreamFilter {
     public static void main(String[] args) throws IOException {
         String searchString = "host";
 //        BufferedReader bufferedReader = new BufferedReader(new FileReader("/etc/hosts"));

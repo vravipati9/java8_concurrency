@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Consumer;
 
-public class ConsumerEx {
+public class ConsumerFunctionalInterface {
     public static void main(String... args) {
         Consumer<Integer> consumerInteger = integer -> System.out.println(integer);
         Consumer<Number> consumerNumber = number -> { System.out.println("Printing numbers..."+number.toString()); };

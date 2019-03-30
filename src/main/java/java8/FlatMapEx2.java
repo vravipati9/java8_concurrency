@@ -14,7 +14,7 @@ import java.util.function.Predicate;
 import java.util.stream.Stream;
 
 // Count no of times the word has appeared for each line
-public class FunctionalInterface7 {
+public class FlatMapEx2 {
     public static void main(String[] args) throws IOException {
         String searchString = "localhost";
         String path = "/etc/hosts/";

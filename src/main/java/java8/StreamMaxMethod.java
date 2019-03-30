@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class StreamMaxMethod {
     public static void main(String[] args) {
@@ -19,6 +20,7 @@ public class StreamMaxMethod {
             }
         }).get();
         System.out.println("Maximum element::"+max);
+
     }
     private static void findPersonsWithMaxAge() {
         Person olderPerson = createPeople().stream().max((o1, o2) -> o1.getAge() - o2.getAge()).orElse(null);

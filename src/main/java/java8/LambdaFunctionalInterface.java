@@ -6,7 +6,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.function.Consumer;
 
-public class FunctionalInterface4 {
+public class LambdaFunctionalInterface {
     public static void main(String[] args) {
 
 

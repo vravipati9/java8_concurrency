@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 // Group persons with their age
-public class FunctionalInterface8 {
+public class CollectorsGroupingBy {
     public static void main(String[] args) throws IOException {
         Map<Integer, List<Person>> groupedByAge = new HashMap<>();
         //usingImperitiveStyleToGroupPersonsByAge(groupedByAge);
