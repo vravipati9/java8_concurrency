@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Map;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class StreamMaxMethod {
@@ -12,7 +14,7 @@ public class StreamMaxMethod {
         findPersonsWithMaxAge();
     }
     private static void findMaxElement() {
-        List<Integer> listOfIntegers = Arrays.asList(2, 3, 1, 9, 4, 7);
+        List<Integer> listOfIntegers = Arrays.asList(2, 3, 1, 9, 4, 9, 7);
         Integer max = listOfIntegers.stream().max(new Comparator<Integer>() {
             @Override
             public int compare(Integer o1, Integer o2) {
@@ -29,11 +31,11 @@ public class StreamMaxMethod {
         /*
         https://stackoverflow.com/questions/45256176/using-max-with-stream-on-a-list
         Integer maxSalary;
-maxSalary = roster
-    .stream()
-    .map(Employee :: getSalary)
-    .collect(Collectors.reducing(Integer :: max)
-    .get();
+        maxSalary = roster
+        .stream()
+        .map(Employee :: getSalary)
+        .collect(Collectors.reducing(Integer :: max)
+        .get();
 
          */
     }

@@ -45,6 +45,9 @@ public class CollectorsGroupingBy {
 
         System.out.println(createPeople().stream().collect(Collectors.groupingBy(person -> person.getAge())));
 
+        System.out.println("* * * mapping with first name * * *");
+        System.out.println(createPeople().stream().collect(Collectors.groupingBy(person -> person.getAge(), Collectors.mapping(Person::getFirstName, Collectors.toList()))));
+
     }
 
 

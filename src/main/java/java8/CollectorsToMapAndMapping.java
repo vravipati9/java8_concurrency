@@ -10,7 +10,7 @@ import static java.util.stream.Collectors.*;
 
 //https://www.youtube.com/watch?v=1OpAgZvYXLQ
 //https://www.youtube.com/watch?v=IwJ-SCfXoAU
-public class ToMapUsingCollectors {
+public class CollectorsToMapAndMapping {
 	public static void main(String...strings) {
 		List<Employee> employee = createEmployee();
 		

@@ -1,6 +1,5 @@
 package generics;
 
-import sun.jvm.hotspot.oops.ObjectHeap;
 
 import java.util.*;
 
