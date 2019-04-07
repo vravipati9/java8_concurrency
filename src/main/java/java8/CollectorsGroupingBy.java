@@ -13,6 +13,8 @@ import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import static java8.Person.getCreatePeople;
+
 // Group persons with their age
 public class CollectorsGroupingBy {
     public static void main(String[] args) throws IOException {
@@ -22,7 +24,7 @@ public class CollectorsGroupingBy {
     }
 
     private static void usingImperitiveStyleToGroupPersonsByAge(Map<Integer, List<Person>> groupedByAge) {
-        for (Person person: createPeople()) {
+        for (Person person: getCreatePeople()) {
 
             if (!groupedByAge.containsKey(person.getAge()))
                 groupedByAge.put(person.getAge(), new ArrayList<>());
@@ -35,7 +37,7 @@ public class CollectorsGroupingBy {
     private static void usingFunctionalStyleToGroupPersonsByAge(Map<Integer, List<Person>> groupedByAge) {
         System.out.println("* * * Using Functional Style * * *");
 
-//        for (Person person: createPeople()) {
+//        for (Person person: getCreatePeople()) {
 //
 //            groupedByAge.computeIfAbsent(person.getAge(), integer -> new ArrayList<>());
 //
@@ -43,22 +45,10 @@ public class CollectorsGroupingBy {
 //        }
 //        System.out.println(groupedByAge);
 
-        System.out.println(createPeople().stream().collect(Collectors.groupingBy(person -> person.getAge())));
+        System.out.println(getCreatePeople().stream().collect(Collectors.groupingBy(person -> person.getAge())));
 
         System.out.println("* * * mapping with first name * * *");
-        System.out.println(createPeople().stream().collect(Collectors.groupingBy(person -> person.getAge(), Collectors.mapping(Person::getFirstName, Collectors.toList()))));
+        System.out.println(getCreatePeople().stream().collect(Collectors.groupingBy(person -> person.getAge(), Collectors.mapping(Person::getFirstName, Collectors.toList()))));
 
-    }
-
-
-    private static List<Person> createPeople() {
-        List<Person> persons = Arrays.asList(
-                new Person("Veera", "Ravipati", 30),
-                new Person("Will", "Smith", 55),
-                new Person("Robert", "Smith", 30),
-                new Person("Henry", "Jason", 71),
-                new Person("Veera", "Ravipati", 40),
-                new Person("Tom", "Hewkins", 55));
-        return persons;
     }
 }

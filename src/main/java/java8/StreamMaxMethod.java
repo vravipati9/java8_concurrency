@@ -8,6 +8,8 @@ import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
+import static java8.Person.getCreatePeople;
+
 public class StreamMaxMethod {
     public static void main(String[] args) {
         findMaxElement();
@@ -25,7 +27,7 @@ public class StreamMaxMethod {
 
     }
     private static void findPersonsWithMaxAge() {
-        Person olderPerson = createPeople().stream().max((o1, o2) -> o1.getAge() - o2.getAge()).orElse(null);
+        Person olderPerson = getCreatePeople().stream().max((o1, o2) -> o1.getAge() - o2.getAge()).orElse(null);
         System.out.println("Older Person(s):\n"+olderPerson);
 
         /*
@@ -39,14 +41,5 @@ public class StreamMaxMethod {
 
          */
     }
-    private static List<Person> createPeople() {
-        List<Person> persons = Arrays.asList(
-                new Person("Pat", "John", 40),
-                new Person("Will", "Smith", 55),
-                new Person("Robert", "Smith", 30),
-                new Person("Henry", "Jason", 71),
-                new Person("Veera", "Pat", 40),
-                new Person("Tom", "Hewkins", 71));
-        return persons;
-    }
+
 }
