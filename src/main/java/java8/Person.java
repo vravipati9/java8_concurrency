@@ -3,7 +3,7 @@ package java8;
 import java.util.Arrays;
 import java.util.List;
 
-class Person {
+public class Person {
 	private String firstName;
 	private String lastName;
 	private int age;
@@ -12,7 +12,7 @@ class Person {
 	public String toString() {
 		return "Person{" +
 				"firstName='" + firstName + '\'' +
-				", lastName='" + lastName + '\'' +
+				//", lastName='" + lastName + '\'' +
 				", age=" + age +
 				'}';
 	}
@@ -35,10 +35,10 @@ class Person {
 
 	public static List<Person> getCreatePeople() {
 		return Arrays.asList(
-				new Person("Jane", "Ravipati", 42),
+				new Person("Jan", "Ravipati", 42),
 				new Person("Bob", "Smith", 63),
 				new Person("Sara", "Smith", 33),
-				new Person("Bill", "Jason", 33),
+				new Person("BillMelinda", "Jason", 33),
 				new Person("Jill", "Venkat", 12),
 				new Person("Jack", "Ryan", 22),
 				new Person("Jack", "Ryan", 75));

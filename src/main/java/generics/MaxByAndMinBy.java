@@ -16,7 +16,7 @@ public class ReduceMethodEx {
         Map<Character, List<Person>> groupedByFirstCharacter = getCreatePeople().stream().
                 collect(Collectors.groupingBy(o -> o.getFirstName().charAt(0)));
         System.out.println(groupedByFirstCharacter);
-
+        
         BinaryOperator<Person> eldest = new BinaryOperator<Person>() {
             @Override
             public Person apply(Person person1, Person person2) {
