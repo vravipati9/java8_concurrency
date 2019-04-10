@@ -1,3 +1,8 @@
+######
+#git rm --cached <file>
+#https://stackoverflow.com/questions/1274057/how-to-make-git-forget-about-a-file-that-was-tracked-but-is-now-in-gitignore
+##############
+
 # Created by .ignore support plugin (hsz.mobi)
 ### Java template
 *.class
