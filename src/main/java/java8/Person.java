@@ -33,7 +33,7 @@ public class Person {
 		return age;
 	}
 
-	public static List<Person> getCreatePeople() {
+	public static List<Person> getAllPersons() {
 		return Arrays.asList(
 				new Person("Jan", "Ravipati", 42),
 				new Person("Bob", "Smith", 63),

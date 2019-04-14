@@ -1,14 +1,10 @@
 package java8;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
-import java.util.Map;
-import java.util.function.Function;
-import java.util.stream.Collectors;
 
-import static java8.Person.getCreatePeople;
+import static java8.Person.getAllPersons;
 
 public class StreamMaxMethod {
     public static void main(String[] args) {
@@ -27,7 +23,7 @@ public class StreamMaxMethod {
 
     }
     private static void findPersonsWithMaxAge() {
-        Person olderPerson = getCreatePeople().stream().max((o1, o2) -> o1.getAge() - o2.getAge()).orElse(null);
+        Person olderPerson = getAllPersons().stream().max((o1, o2) -> o1.getAge() - o2.getAge()).orElse(null);
         System.out.println("Older Person(s):\n"+olderPerson);
 
         /*
