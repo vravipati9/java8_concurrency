@@ -1,11 +1,13 @@
 package java8;
 
 
+import pojos.Person;
+
 import java.io.IOException;
 import java.util.*;
 import java.util.stream.Collectors;
 
-import static java8.Person.getAllPersons;
+import static pojos.Person.getAllPersons;
 
 // Group persons with their age
 public class GroupingBy {

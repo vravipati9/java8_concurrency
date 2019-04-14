@@ -1,5 +1,5 @@
 package generics;
-import java8.Person;
+import pojos.Person;
 
 import java.util.Comparator;
 import java.util.Map;
@@ -7,7 +7,7 @@ import java.util.Optional;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-import static java8.Person.getAllPersons;
+import static pojos.Person.getAllPersons;
 
 /*
 Group By first character and find older person in that group

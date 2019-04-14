@@ -1,17 +1,14 @@
-package generics;
-import java8.Person;
+package java8;
+
+import pojos.Person;
 
 import java.util.function.BinaryOperator;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-import static java8.Person.getAllPersons;
+import static pojos.Person.getAllPersons;
 
-/*
-    Group with first Character, Person with same length for name, then select the elder from the two
-    Else, person with longer names comes out
- */
-public class ReducingMethod {
+public class ReducingMethodEx2 {
     public static void main(String... args) {
 
         Function<Person, Character> firstCharacter = person -> person.getFirstName().charAt(0);
@@ -29,7 +26,7 @@ public class ReducingMethod {
         System.out.println("* * * Formatting results based on conditions * * *");
         getAllPersons().stream().
                 collect(Collectors.groupingBy(firstCharacter, Collectors.reducing(classifier)))
-                        .forEach((integer, personList) -> System.out.println(personList));
+                .forEach((integer, personList) -> System.out.println(personList));
 
     }
 }

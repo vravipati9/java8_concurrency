@@ -64,6 +64,7 @@ Functional
 //GITHUB -https://github.com/vvsrk/java8_concurrency.git
 //To change remote origin - git remote set-url origin https://github.com/vvsrk/java8_concurrency.git
 
+
 https://www.youtube.com/watch?v=hSIhx_5CFj0
 https://www.youtube.com/watch?v=34oiEq9nD0M
 
@@ -99,3 +100,8 @@ userid: conccourse/thre@ds
 ###########################################################
 
 Need to look at collectors
+
+#####################
+DEFAULT methods rules
+1) Subtypes automatically carry over the default methods from their supertypes
+

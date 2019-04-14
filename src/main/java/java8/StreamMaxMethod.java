@@ -1,10 +1,12 @@
 package java8;
 
+import pojos.Person;
+
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
-import static java8.Person.getAllPersons;
+import static pojos.Person.getAllPersons;
 
 public class StreamMaxMethod {
     public static void main(String[] args) {

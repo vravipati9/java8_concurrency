@@ -1,16 +1,15 @@
 package java8;
 
+import pojos.Employee;
+import pojos.Gender;
+
 import java.util.Arrays;
 import java.util.List;
-import java.util.Map;
-import java.util.function.Function;
-import java.util.stream.Collector;
 
 import static java.util.stream.Collectors.*;
 
-//https://www.youtube.com/watch?v=1OpAgZvYXLQ
-//https://www.youtube.com/watch?v=IwJ-SCfXoAU
-public class CollectorsToMapAndMapping {
+
+public class CollectorsMapping {
 	public static void main(String...strings) {
 		List<Employee> employee = createEmployee();
 		
@@ -30,6 +29,10 @@ public class CollectorsToMapAndMapping {
 						mapping(Employee::getAge, toList())
 						))
 		);
+
+		// Want to group students by the marks. Then I want to further group those sets into same name students together
+		// Map<Integer, Map<String, List<Student>>> grouping = students.stream().collect(Collectors.groupingBy(Student::getMarks,
+		//                Collectors.groupingBy(Student::getName)));
 	}
 	
 
@@ -43,35 +46,4 @@ public class CollectorsToMapAndMapping {
 				new Employee("Jack", Gender.MALE, "34")
 		);
 	}
-}
-
-class Employee {
-	String name;
-	Gender gender;
-	String age;
-	
-	public Employee(String name, Gender gender, String age) {
-		// TODO Auto-generated constructor stub
-		this.name = name;
-		this.gender = gender;
-		this.age = age;
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public Gender getGender() {
-		return gender;
-	}
-
-	public String getAge() {
-		return age;
-	}
-	
-}
-
-enum Gender {
-	FEMALE,
-	MALE;
 }

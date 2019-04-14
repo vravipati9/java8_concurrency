@@ -1,5 +1,7 @@
 package java8;
 
+import pojos.Person;
+
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
@@ -10,7 +12,7 @@ import java.util.function.Predicate;
 
 public class SortUsingLambda {
 	public static void main(String...a) {
-		List<Person> persons = Arrays.asList(new Person("Veera", "Ravipati", 33), 
+		List<Person> persons = Arrays.asList(new Person("Veera", "Ravipati", 33),
 											new Person("Will", "Smith", 55),
 											new Person("Tom", "Hewkins", 30));
 		beforeJava8(persons);

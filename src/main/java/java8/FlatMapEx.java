@@ -9,7 +9,9 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-// flatmap flattens the result of a map, collection to collection transformation, we use flatmap
+// flatmap flattens the result of a map operation, collection to collection transformation, we use flatmap
+//map operation is returning single value, map function is adequate.
+//map operation returns Collection itself, use flatMap
 public class FlatMapEx {
     public static void main(String[] args) {
         //System.out.println(factorsOfImperitiveStyle(Arrays.asList(1, 2, 6, 8))); //[1, 2, 3, 4, 6, 8]

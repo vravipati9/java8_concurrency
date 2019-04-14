@@ -1,15 +1,17 @@
 package java8;
 
+import pojos.Person;
+
 import java.util.List;
 import java.util.Map;
 import java.util.function.BinaryOperator;
 import java.util.stream.Collectors;
 
-import static java8.Person.getAllPersons;
+import static pojos.Person.getAllPersons;
 /*
 Group By first character and find older person in that group
  */
-public class ReduceMethodEx {
+public class ReducingMethodEx1 {
     public static void main(String... args) {
         Map<Character, List<Person>> groupedByFirstCharacter = getAllPersons().stream().
                 collect(Collectors.groupingBy(o -> o.getFirstName().charAt(0)));

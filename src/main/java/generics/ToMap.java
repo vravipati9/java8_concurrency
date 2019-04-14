@@ -6,10 +6,10 @@ import java.util.function.BinaryOperator;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-import java8.Person;
+import pojos.Person;
 
 import static java.util.stream.Collectors.groupingBy;
-import static java8.Person.getAllPersons;
+import static pojos.Person.getAllPersons;
 
 public class ToMap {
     public static void main(String[] args) {
