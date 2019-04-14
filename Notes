@@ -33,6 +33,10 @@ userid: conccourse/thre@ds
 How do I resolve git saying “Commit your changes or stash them before you can merge”?
 https://stackoverflow.com/questions/15745045/how-do-i-resolve-git-saying-commit-your-changes-or-stash-them-before-you-can-me
 
+Remove from stash:
+---
+git stash drop stash@{0}
+
 
 interfaces can not have state
 
