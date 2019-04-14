@@ -101,7 +101,7 @@ userid: conccourse/thre@ds
 
 Need to look at collectors
 
-#####################
-DEFAULT methods rules
-1) Subtypes automatically carry over the default methods from their supertypes
-
+#############
+#git rm --cached <file>
+#https://stackoverflow.com/questions/1274057/how-to-make-git-forget-about-a-file-that-was-tracked-but-is-now-in-gitignore
+##############
