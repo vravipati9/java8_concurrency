@@ -57,8 +57,17 @@ If we have collection of data and needs to perform similar operation and order d
 Runnable
 Callable
 Consumer
+    accept - forEach
 Supplier
-Functional
+    get - orElse , often used with objects have to create
+Function
+    apply - map
+BiFunction
+    apply - reduce
+BiConsumer
+    accept
+Callable vs Supplier
+
 
 //GITLAB - https://gitlab.com/vravipati9/java8_concurrency.git
 //GITHUB -https://github.com/vvsrk/java8_concurrency.git
