@@ -24,6 +24,7 @@ public class ComparatorInJava8 {
         System.out.println(persons);
         System.out.println(sortBy(persons, comparatorByName));
 
+
         // another way
         Function<Person, String> byName = person -> person.getFirstName();
         Function<Person, Integer> byAge = Person::getAge;
