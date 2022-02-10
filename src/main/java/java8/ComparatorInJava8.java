@@ -21,7 +21,6 @@ public class ComparatorInJava8 {
             }
         };
         Comparator<Person> comparatorByAge = (o1, o2) -> new Integer(o1.getAge()).compareTo(o2.getAge());
-        System.out.println(persons);
         System.out.println(sortBy(persons, comparatorByName));
 
 
